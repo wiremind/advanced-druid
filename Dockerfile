@@ -1,4 +1,4 @@
-FROM apache/druid:0.18.1
+FROM apache/druid:0.19.0
 
 # NOTE: check /druid.sh after each version bumping
 RUN cp /druid.sh /tmp/druid.sh
